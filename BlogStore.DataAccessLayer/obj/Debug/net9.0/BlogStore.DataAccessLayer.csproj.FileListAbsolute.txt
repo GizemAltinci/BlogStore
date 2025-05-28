@@ -1,0 +1,15 @@
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\bin\Debug\net9.0\BlogStore.DataAccessLayer.deps.json
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\bin\Debug\net9.0\BlogStore.DataAccessLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\bin\Debug\net9.0\BlogStore.DataAccessLayer.pdb
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\bin\Debug\net9.0\BlogStore.EntityLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\bin\Debug\net9.0\BlogStore.EntityLayer.pdb
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.AssemblyInfo.cs
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStor.A1D363C2.Up2Date
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\refint\BlogStore.DataAccessLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.pdb
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\ref\BlogStore.DataAccessLayer.dll
