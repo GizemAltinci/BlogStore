@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gizem\\source\\repos\\BlogStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.businesslayer\\validationrules\\articlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|solutionrelative:blogstore.businesslayer\\validationrules\\articlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.businesslayer\\validationrules\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|solutionrelative:blogstore.businesslayer\\validationrules\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.businesslayer\\concrete\\commentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|solutionrelative:blogstore.businesslayer\\concrete\\commentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.businesslayer\\concrete\\articlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|solutionrelative:blogstore.businesslayer\\concrete\\articlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250528214055_mig1.cs",
-              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs",
-              "RelativeDocumentMoniker": "BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs",
-              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs",
-              "RelativeToolTip": "BlogStore.DataAccessLayer\\Migrations\\20250528214055_mig1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ArticleValidator.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\ValidationRules\\ArticleValidator.cs",
+              "RelativeDocumentMoniker": "BlogStore.BusinessLayer\\ValidationRules\\ArticleValidator.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\ValidationRules\\ArticleValidator.cs",
+              "RelativeToolTip": "BlogStore.BusinessLayer\\ValidationRules\\ArticleValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:40:55.829Z",
+              "WhenOpened": "2025-06-02T12:04:12.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\ValidationRules\\CategoryValidator.cs",
+              "RelativeDocumentMoniker": "BlogStore.BusinessLayer\\ValidationRules\\CategoryValidator.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\ValidationRules\\CategoryValidator.cs",
+              "RelativeToolTip": "BlogStore.BusinessLayer\\ValidationRules\\CategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:49:07.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentManager.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\CommentManager.cs",
+              "RelativeDocumentMoniker": "BlogStore.BusinessLayer\\Concrete\\CommentManager.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\CommentManager.cs",
+              "RelativeToolTip": "BlogStore.BusinessLayer\\Concrete\\CommentManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:37:31.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticleManager.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\ArticleManager.cs",
+              "RelativeDocumentMoniker": "BlogStore.BusinessLayer\\Concrete\\ArticleManager.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\ArticleManager.cs",
+              "RelativeToolTip": "BlogStore.BusinessLayer\\Concrete\\ArticleManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:27:43.271Z",
               "EditorCaption": ""
             }
           ]
