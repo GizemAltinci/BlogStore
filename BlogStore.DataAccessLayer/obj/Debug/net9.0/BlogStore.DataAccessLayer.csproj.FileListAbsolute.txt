@@ -13,3 +13,4 @@ C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0
 C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\refint\BlogStore.DataAccessLayer.dll
 C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.pdb
 C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\ref\BlogStore.DataAccessLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.DataAccessLayer\obj\Debug\net9.0\BlogStore.DataAccessLayer.sourcelink.json
