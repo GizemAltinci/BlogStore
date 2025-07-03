@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gizem\\source\\repos\\BlogStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE489E5D-4B04-422D-ADC3-3AA80207FC57}|BlogStore.BusinessLayer\\BlogStore.BusinessLayer.csproj|solutionrelative:blogstore.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.presentationlayer\\views\\comment\\commentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|solutionrelative:blogstore.presentationlayer\\views\\comment\\commentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.presentationlayer\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|solutionrelative:blogstore.presentationlayer\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|c:\\users\\gizem\\source\\repos\\blogstore\\blogstore.presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76C8767-8C6D-4B72-8137-52593D07A527}|BlogStore.PresentationLayer\\BlogStore.PresentationLayer.csproj|solutionrelative:blogstore.presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "BlogStore.BusinessLayer\\Concrete\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.BusinessLayer\\Concrete\\CategoryManager.cs",
-              "RelativeToolTip": "BlogStore.BusinessLayer\\Concrete\\CategoryManager.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADgvyAAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "BlogStore.PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Program.cs",
+              "RelativeToolTip": "BlogStore.PresentationLayer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T22:27:39.759Z",
+              "WhenOpened": "2025-07-03T20:48:53.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentList.cshtml",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Views\\Comment\\CommentList.cshtml",
+              "RelativeDocumentMoniker": "BlogStore.PresentationLayer\\Views\\Comment\\CommentList.cshtml",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Views\\Comment\\CommentList.cshtml",
+              "RelativeToolTip": "BlogStore.PresentationLayer\\Views\\Comment\\CommentList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T20:23:47.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "BlogStore.PresentationLayer\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\gizem\\source\\repos\\BlogStore\\BlogStore.PresentationLayer\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "BlogStore.PresentationLayer\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:10:12.882Z",
               "EditorCaption": ""
             }
           ]

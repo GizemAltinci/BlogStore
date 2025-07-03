@@ -10,6 +10,7 @@ namespace BlogStore.BusinessLayer.ValidationRules
 {
     public class CategoryValidator:AbstractValidator<Category>
     {
+       //ctora yazdık
         public CategoryValidator()
         {
             RuleFor(x => x.CategoryName).NotEmpty().WithMessage("Lütfen kategori adı yazınız.");

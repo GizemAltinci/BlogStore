@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlogStore.DataAccessLayer.Context
 {
-    internal class BlogContext:DbContext
+    public class BlogContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
