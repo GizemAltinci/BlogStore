@@ -1,4 +1,4 @@
-﻿using BlogStore.EntityLayer.Entities;
+﻿ using BlogStore.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +9,6 @@ namespace BlogStore.DataAccessLayer.Abstract
 {
     public interface IArticleDal:IGenericDal<Article>
     {
+        List<Article> GetArticlesWithCategories();
     }
 }
