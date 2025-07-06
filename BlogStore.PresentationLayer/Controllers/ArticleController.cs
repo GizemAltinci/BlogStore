@@ -4,7 +4,7 @@ namespace BlogStore.PresentationLayer.Controllers
 {
     public class ArticleController : Controller
     {
-        public IActionResult ArtcileDetail(int id)
+        public IActionResult ArticleDetail(int id)
         {
             return View();
         }

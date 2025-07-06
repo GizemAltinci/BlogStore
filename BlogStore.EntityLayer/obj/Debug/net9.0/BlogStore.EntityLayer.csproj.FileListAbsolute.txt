@@ -12,3 +12,4 @@ C:\Users\gizem\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\ref
 C:\Users\gizem\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.pdb
 C:\Users\gizem\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.genruntimeconfig.cache
 C:\Users\gizem\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\ref\BlogStore.EntityLayer.dll
+C:\Users\gizem\source\repos\BlogStore\BlogStore.EntityLayer\obj\Debug\net9.0\BlogStore.EntityLayer.sourcelink.json
