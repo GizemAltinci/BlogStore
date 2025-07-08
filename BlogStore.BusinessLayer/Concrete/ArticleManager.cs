@@ -19,6 +19,11 @@ namespace BlogStore.BusinessLayer.Concrete
             _articleDal = articleDal;
         }
 
+        public AppUser TGetAppUserByArticleId(int id)
+        {
+            return _articleDal.GetAppUserByArticleId(id);
+        }
+
         public void TDelete(int id)
         {
             _articleDal.Delete(id);

@@ -10,5 +10,6 @@ namespace BlogStore.BusinessLayer.Abstract
     public interface IArticleService:IGenericService<Article>
     {
         public List<Article> TGetArticlesWithCategories();
+        public AppUser TGetAppUserByArticleId(int id);
     }
 }

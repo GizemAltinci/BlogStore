@@ -44,7 +44,8 @@
                         </form>
                     </div>
                     <!-- END sidebar-box -->
-                    @await Component.InvokeAsync("_ArticleDetailAboutAuthorComponentPartial")
+                    @await Component.InvokeAsync("_ArticleDetailAboutAuthorComponentPartial", new { id = ViewBag.i })
+                    // parametre olarak id gönderdin (bu ArticleId),ViewComponent de yazar bilgisini alıp View’a yolluyor.
                     
                     <!-- END sidebar-box -->
                     @await Component.InvokeAsync("_ArticleDetailPopularPostsComponentPartial")

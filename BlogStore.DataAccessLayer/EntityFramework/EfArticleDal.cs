@@ -19,9 +19,23 @@ namespace BlogStore.DataAccessLayer.EntityFramework
             _context = context;
         }
 
+        public AppUser GetAppUserByArticleId(int id)
+        {
+            string userId = _context.Articles.Where(x => x.ArticleId == id).Select(y => y.AppUserId).FirstOrDefault();
+            var userValue = _context.Users.Where(x => x.Id == userId).FirstOrDefault();
+            return userValue;
+            //Bu metot, verilen bir makale ID’si üzerinden önce AppUserId'yi alıyor, sonra Users tablosuna gidip bu ID’ye sahip kullanıcıyı buluyor ve döndürüyor.
+        }
+
         public List<Article> GetArticlesWithCategories()
         {
             return _context.Articles.Include(x=>x.Category).ToList();
+        }
+
+        public List<Article> GetTop3PopulerArticles()
+        {
+            var values=_context.Articles.OrderByDescending(x=>x.ArticleId).Take(3).ToList();
+            return values;
         }
     }
 }
