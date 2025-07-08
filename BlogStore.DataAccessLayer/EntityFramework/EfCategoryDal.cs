@@ -1,5 +1,6 @@
 ﻿using BlogStore.DataAccessLayer.Abstract;
 using BlogStore.DataAccessLayer.Context;
+using BlogStore.DataAccessLayer.Dtos;
 using BlogStore.DataAccessLayer.Repositories;
 using BlogStore.EntityLayer.Entities;
 using System;
@@ -12,8 +13,20 @@ namespace BlogStore.DataAccessLayer.EntityFramework
 {
     public class EfCategoryDal : GenericRepository<Category>, ICategoryDal
     {
+        private readonly BlogContext _context;
         public EfCategoryDal(BlogContext context) : base(context)
         {
+            _context = context;
+        }
+
+        public List<CategoryWithArticleCountDto> GetCategoryWithArticleCount()
+        {
+            var result = _context.Categories.Select(c => new CategoryWithArticleCountDto
+            {
+                CategoryName = c.CategoryName,
+                ArticleCount = _context.Articles.Count(a => a.CategoryId == c.CategoryId)//Bu satır, her kategori için o kategoriye ait kaç makale olduğunu bulur.Yani CategoryId eşleşen makaleler sayılır ve sonuç olarak ArticleCount döner.
+            }).ToList();
+            return result;
         }
     }
 }
