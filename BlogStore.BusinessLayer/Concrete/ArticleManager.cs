@@ -56,5 +56,10 @@ namespace BlogStore.BusinessLayer.Concrete
         {
             _articleDal.Update(entity);
         }
+
+        public List<Article> TGetTop3PopulerArticles()
+        {
+            return _articleDal.GetTop3PopulerArticles();
+        }
     }
 }

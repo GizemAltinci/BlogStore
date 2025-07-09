@@ -34,8 +34,10 @@ namespace BlogStore.DataAccessLayer.EntityFramework
 
         public List<Article> GetTop3PopulerArticles()
         {
-            var values=_context.Articles.OrderByDescending(x=>x.ArticleId).Take(3).ToList();
+            //Veritabanındaki Articles tablosuna git, ArticleId'ye göre azalan sırala, ilk 3 taneyi al ve geri döndür.
+            var values =_context.Articles.OrderByDescending(x=>x.ArticleId).Take(3).ToList();
             return values;
+            
         }
     }
 }
